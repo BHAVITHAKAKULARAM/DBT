@@ -5,7 +5,7 @@ models:
     - name: dim_student
       description: "A starter dbt model"
       columns:
-          - name: id
+          - name: roll_no
             description: "The primary key for this table"
             tests:
                 - unique
