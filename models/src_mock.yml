@@ -1,8 +1,0 @@
-version: 2
-
-sources:
-  - name: mock
-    database: dbt
-    schema: bhavitha
-    tables:
-      - name: mock_orders

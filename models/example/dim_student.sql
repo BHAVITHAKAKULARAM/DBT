@@ -1,5 +1,5 @@
 {{
-    config(materialized='view')
+    config(materialized='incremental')
 }}
 
-select * from BHAVITHA.STUDENT
+select * from BHAVITHA.STUDENT 

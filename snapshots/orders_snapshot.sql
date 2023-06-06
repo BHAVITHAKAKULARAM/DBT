@@ -2,12 +2,12 @@
 
 {{
     config(
-      target_database='DBT',
+      target_database='dbt',
       target_schema='snapshots',
       unique_key='order_id',
 
       strategy='timestamp',
-      updated_at='updated_at','created_at'
+      updated_at='updated_at',
     )
 }}
 
