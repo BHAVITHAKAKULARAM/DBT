@@ -1,4 +1,4 @@
-{% snapshot country_snapshot %}
+{% snapshot agent_snapshot %}
     {{
         config(
             target_schema='snapshots',
@@ -10,6 +10,3 @@
 
     select * from dim_agents
  {% endsnapshot %}
-
-
-
