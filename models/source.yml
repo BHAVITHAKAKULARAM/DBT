@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: DBT_TEST
+    database: MY_DB  
+    schema: MY_SCHEMA  
+    tables:
+      - name: STUDENT
+     
+
